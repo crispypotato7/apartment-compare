@@ -3,7 +3,7 @@
 Local-first apartment comparison app for personal apartment hunting. Data stays in a SQLite file on this machine.
 
 ## Location
-- Project root: `/Users/utkbhard/personal-projects/apartment-compare`
+- Project root: the cloned `apartment-compare` repository
 - SQLite database: `data/apartments.db`
 
 ## Run
