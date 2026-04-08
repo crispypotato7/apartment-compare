@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sample Zillow Listing</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Residence",
+        "url": "https://www.zillow.com/homedetails/1234-W-Example-St-Chicago-IL-60647/123456_zpid/",
+        "name": "1234 W Example St",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1234 W Example St",
+          "addressLocality": "Chicago",
+          "addressRegion": "IL",
+          "postalCode": "60647"
+        },
+        "numberOfRooms": 3,
+        "numberOfBathroomsTotal": 2.5,
+        "floorSize": {
+          "@type": "QuantitativeValue",
+          "value": 1800,
+          "unitCode": "FTK"
+        },
+        "image": [
+          "https://photos.zillowstatic.com/fp/example-main.webp"
+        ]
+      }
+    </script>
+    <script id="__NEXT_DATA__" type="application/json">
+      {
+        "props": {
+          "pageProps": {
+            "componentProps": {
+              "listing": {
+                "price": 4200,
+                "hdpUrl": "/homedetails/1234-W-Example-St-Chicago-IL-60647/123456_zpid/",
+                "address": {
+                  "streetAddress": "1234 W Example St",
+                  "city": "Chicago",
+                  "state": "IL",
+                  "zipcode": "60647",
+                  "neighborhood": "Logan Square"
+                },
+                "resoFacts": {
+                  "bedrooms": 3,
+                  "bathrooms": 2.5,
+                  "laundryFeatures": [
+                    "Washer/Dryer In Unit"
+                  ],
+                  "parkingFeatures": [
+                    "Detached garage"
+                  ],
+                  "petsAllowed": [
+                    "Cats",
+                    "Dogs"
+                  ]
+                },
+                "livingArea": 1800,
+                "carouselPhotos": [
+                  {
+                    "mixedSources": {
+                      "jpeg": [
+                        {
+                          "url": "https://photos.zillowstatic.com/fp/example-main.webp"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
